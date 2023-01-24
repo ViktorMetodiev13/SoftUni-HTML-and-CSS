@@ -11,6 +11,7 @@ main {
 
 section {
     margin-left: 20px;
+    background-color: #CCCCCC;
 }
 
 /* nav */
@@ -32,10 +33,6 @@ nav ul li {
 }
 
 /* main */
-
-section {
-    
-}
 
 section article h1 {
     font-size: 28px;   
