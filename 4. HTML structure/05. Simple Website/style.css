@@ -3,6 +3,7 @@
 body {
     margin: 0px;
     padding: 0px;
+    background-color: #CCCCCC;
 }
 
 main {
@@ -12,6 +13,7 @@ main {
 section {
     margin-left: 20px;
     background-color: #CCCCCC;
+    inline-size: inlin;
 }
 
 /* nav */
