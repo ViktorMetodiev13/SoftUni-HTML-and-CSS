@@ -1,3 +1,10 @@
+body {
+    text-align: center;
+}
+
 h1 {
-    color: red;
+    font-family: 'Times New Roman';
+    font-weight: 400;
+    font-style: serif;
+    color: #747474;
 }
