@@ -9,3 +9,20 @@ h1 {
     color: #747474;
     line-height: 1.15;
 }
+
+span {
+    font-display: "Helvetica Neue",'open Sans', sans-serif;
+    font-style: oblique;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.46;
+    color: #5c5a5a;
+}
+
+p {
+    font-family: "Graphik Regular Web", "Helvetica Neue", Helvetica, Arial, sans;
+    font-weight: 400px;
+    font-size: 16px;
+    line-height: 1.46;
+    color: #5c5a5a;
+}
