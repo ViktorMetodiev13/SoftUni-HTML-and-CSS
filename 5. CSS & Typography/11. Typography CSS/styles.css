@@ -1,0 +1,33 @@
+body {
+    font-family: Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+h1 {
+    font-family: Helvetica, serif;
+}
+
+h2 {
+    font-family: Helvetica, serif;
+}
+
+h3 {
+    font-family: Helvetica, serif;
+}
+
+h4 {
+    font-family: Helvetica, serif;
+}
+
+h5 {
+    font-family: Helvetica, serif;
+}
+
+h6 {
+    font-family: Helvetica, serif;
+}
+
+br {
+    color: black;
+}
