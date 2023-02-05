@@ -21,9 +21,13 @@ body {
     color: rgb(251, 251, 251);
 }
 
-.button.hover {
+.button:hover {
     background-color: rgb(0, 102, 0);
     outline: none;
     cursor: pointer;
     color: rgb(251, 251, 251);
+}
+
+a {
+    cursor: default;
 }
