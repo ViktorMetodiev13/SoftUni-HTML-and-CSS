@@ -17,3 +17,7 @@ ul > li {
 .container-adjacent p ~ p {
     background-color: gold;
 }
+
+.container-adjacent div + p {
+    background-color:aqua;
+}
