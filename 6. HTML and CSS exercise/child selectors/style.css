@@ -1,0 +1,9 @@
+ul li {
+    background-color: gray;
+}
+
+/* direct Children example */
+
+ul > li {
+    background-color: red;
+}
