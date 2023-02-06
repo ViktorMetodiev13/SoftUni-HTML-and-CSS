@@ -1,3 +1,5 @@
+/* all li children from ul element */
+
 ul li {
     background-color: gray;
 }
@@ -6,4 +8,12 @@ ul li {
 
 ul > li {
     background-color: red;
+}
+
+.container-adjacent p + p {
+    background-color: green;
+}
+
+.container-adjacent p ~ p {
+    background-color: gold;
 }
