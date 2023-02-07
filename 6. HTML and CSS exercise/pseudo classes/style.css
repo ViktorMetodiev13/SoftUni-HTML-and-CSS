@@ -16,19 +16,16 @@
     color: blue;
 }
 
-/* 
-.btn:hover{
-    background-color: orange;
-}
-
-.btn:disabled{
+.btn:disabled {
     background-color: lightgray;
-    color: darkgray
+    color: darkgray;
 }
 
-.input:focus{
-    background-color: gray;
+.input:focus {
+    background-color: green;
+    color: white;
 }
+
 .input:active{
     background-color: red;
-} */
+} 
