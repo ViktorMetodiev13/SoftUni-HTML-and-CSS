@@ -2,6 +2,13 @@ body {
     border-radius: 3px;
     background-color: rgb(181, 216, 255);
     padding: 5px 10px;
+    display: grid;
+    grid-template-areas: 
+        "header header"
+        "aside main"
+        "footer footer";
+    grid-template-columns: 100px auto;
+    gap: 10px;
 }
 
 header h1 {
@@ -15,21 +22,11 @@ aside ul {
     padding: 5px;
 }
 
-aside a {
+aside ul li a {
     display: block;
     padding: 5px 0px;
     color: rgb(86, 40, 129);
     text-decoration: none;
-}
-
-body {
-    display: grid;
-    grid-template-areas: 
-        "header header"
-        "aside main"
-        "footer footer";
-    grid-template-columns: 100px auto;
-    gap: 10px;
 }
 
 header {
