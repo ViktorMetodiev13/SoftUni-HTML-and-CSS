@@ -2,6 +2,14 @@ body {
     background-color: rgb(238, 238, 238);
 }
 
+.card {
+    background-color: rgb(255, 255, 255);
+    width: 500px;
+    height: 150px;
+    position: relative;
+    margin: 40px 30px;
+}
+
 button {
     background-color: rgb(0, 153, 0);
     border: none;
@@ -18,16 +26,9 @@ h3 {
     font-size: 1em;
 }
 
-.card {
-    background-color: rgb(255, 255, 255);
-    width: 500px;
-    height: 150px;
-    position: relative;
-    margin: 40px 30px;
-}
-
 .info {
     margin: 10px;
+    background-color: blue;
 }
 
 img {
