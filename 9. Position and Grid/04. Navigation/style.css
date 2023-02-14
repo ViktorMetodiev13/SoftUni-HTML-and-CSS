@@ -1,0 +1,63 @@
+/* General stuff */
+
+body {
+  background-color: rgb(238, 238, 238);
+  display: grid;
+  grid-template-areas:
+    "head head head"
+    "main main aside"
+    "main main aside";
+}
+
+a {
+  color: rgb(0, 102, 0);
+  text-decoration: none;
+}
+
+h2 {
+  font-family: Georgia, serif;
+  font-size: 1em;
+}
+
+/* Header */
+
+header {
+  grid-area: head;
+  margin: 50px 90px;
+  border-bottom: 2px solid black;
+  display: grid;
+  grid-template-areas: "heading heading nav-bar";
+}
+
+h1 {
+  grid-area: heading;
+  display: inline-block;
+  font-family: Georgia, serif;
+  font-size: 1.6em;
+}
+
+nav.header {
+  grid-area: nav-bar;
+  display: inline-block;
+  text-align: right;
+}
+
+nav.header li {
+  list-style: none;
+  display: inline-block;
+  padding: 15px;
+}
+
+/* Main */
+
+main {
+  grid-area: main;
+  /* margin: 50px 90px; */
+}
+
+/* Aside */
+
+aside {
+  grid-area: aside;
+  margin: 50px;
+}
