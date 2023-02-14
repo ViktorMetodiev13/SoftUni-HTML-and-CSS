@@ -4,9 +4,12 @@ section {
     display: block;
 }
 
-div {
-    text-align: center;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    
+.viewport1 {
+    position: relative;
+    background-color: aqua;
 }
+
+.viewport1 img {
+    position: absolute;
+}
+
