@@ -2,18 +2,30 @@
 
 ul {
     height: 100px;
-    vertical-align: middle;
 }
 
 li {
     display: inline-block;
     list-style: none;
     margin-left: 15px;
+    vertical-align: middle;
 }
 
 a {
     background-color: lightgrey;
     border-radius: 50%;
     vertical-align: middle;
+}
+
+li i {
+    color: black;
+}
+
+.facebook:hover i, .linkedIn:hover i, .twitter:hover i, .instagram:hover i {
+    color: blue;
+}
+
+.google:hover i {
+    color: orange;
 }
 
