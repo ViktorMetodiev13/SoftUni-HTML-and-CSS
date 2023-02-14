@@ -9,12 +9,9 @@ li {
     list-style: none;
     margin-left: 15px;
     vertical-align: middle;
-}
-
-a {
     background-color: lightgrey;
+    padding: 10px 13px;
     border-radius: 50%;
-    vertical-align: middle;
 }
 
 li i {
