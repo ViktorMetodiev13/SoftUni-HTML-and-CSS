@@ -7,13 +7,14 @@ body {
 
 header article {
     width: 60%;
-    margin: 30px;
+    margin-left: 30px;
+    margin-top: 30px;
     display: inline-block;
 }
 
 section article {
     width: 60%;
-    margin-left: 10px;
+    margin-left: 30px;
     display: inline-block;
 }
 
