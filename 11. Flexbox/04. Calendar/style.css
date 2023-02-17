@@ -1,0 +1,23 @@
+* {
+    box-sizing: border-box;
+}
+
+div {
+    display: flex;
+    align-items: center;
+    max-width: 65vw;
+}
+
+section {
+    display: flex;
+}
+
+span {
+    border: 1px solid black;
+    padding: 30px;
+}
+
+span:nth-child(1) {
+    display: block;
+    flex-basis: 100%;
+}
