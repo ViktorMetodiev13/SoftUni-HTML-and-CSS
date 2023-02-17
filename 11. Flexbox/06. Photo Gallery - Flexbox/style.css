@@ -2,7 +2,6 @@ body {
   display: flex;
   max-width: 90vw;
   background-color: lightgray;
-justify-content: space-between;
 }
 
 ul {
