@@ -1,0 +1,23 @@
+*{
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 65vw;
+    display: flex;
+}
+
+.container div {
+    display: flex;
+    align-items: center;
+}
+
+.container .item {
+    border: 1px solid black;
+    padding: 12px;
+    display: block;
+}
+
+.container .notes {
+    flex-direction: column;
+}
