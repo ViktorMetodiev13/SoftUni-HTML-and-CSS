@@ -48,40 +48,117 @@ h2 {
 }
 
 .firstImage {
-    float: right;
+  float: right;
+  border: 2px solid black;
+  padding: 3px;
+  margin-left: 15px;
+  margin-bottom: 10px;
+}
+
+.secondImage {
+  float: left;
+  border: 2px solid black;
+  padding: 3px;
+  margin-right: 15px;
+  margin-bottom: 10px;
+  box-shadow: rgba(0, 0, 0, 0.25);
+}
+
+.beforeQuote {
+  display: inline-block;
+  width: 40%;
+}
+
+blockquote {
+  font-family: Georgia, serif;
+  width: 40%;
+  display: inline-block;
+  border-left: double gray;
+  padding: 30px;
+  color: gray;
+}
+
+blockquote p {
+  padding-top: -50px;
+}
+
+.author {
+  text-align: right;
+}
+
+/* Desktop view */
+
+@media screen and (min-width: 1800px) {
+  body {
+    font-size: 23px;
+  }
+}
+
+/* Laptop view */
+
+@media screen and (min-width: 1300px) {
+  body {
+    font-size: 21px;
+  }
+}
+
+/* Tablet view */
+
+@media screen and (min-width: 800px) {
+  body {
+    font-size: 18px;
+  }
+
+  .beforeQuote {
+    width: 35vw;
+  }
+
+  blockquote {
+    width: 20vw;
+  }
+}
+
+/* phone view 1 */
+
+@media screen and (min-width: 600px) {
+  body {
+    font-size: 16px;
+  }
+
+  .beforeQuote {
+    display: block;
+    width: 100%;
+  }
+}
+
+/* phone view 2 */
+
+@media screen and (min-width: 500px) {
+  body {
+    font-size: 14px;
+    margin: 0px;
+    padding: 0px;
+  }
+
+  .beforeQuote {
+    display: block;
+    width: 100%;
+  }
+
+  .firstImage {
+    display: block;
     border: 2px solid black;
     padding: 3px;
     margin-left: 15px;
     margin-bottom: 10px;
-}
-
-.secondImage {
-    float: left;
+  }
+  
+  .secondImage {
+    display: block;
     border: 2px solid black;
     padding: 3px;
     margin-right: 15px;
     margin-bottom: 10px;
     box-shadow: rgba(0, 0, 0, 0.25);
-}
-
-.beforeQuote {
-    display: inline-block;
-    width: 40%;
-}
-
-blockquote {
-    font-family: Georgia, serif;
-    width: 40%;
-    display: inline-block;
-    border-left: double gray;
-    padding: 30px;
-    color: gray;
-}
-
-blockquote p {
-    padding-top: -50px;
-}
-
-.author {
-    text-align: right;
+  }
 }
