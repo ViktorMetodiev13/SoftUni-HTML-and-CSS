@@ -1,0 +1,28 @@
+/* COLORS:
+background - #f6f8f9
+headings - #49535e
+paragraph - #49535e
+primary button - #49535e
+
+*/
+
+body {
+    font-family: Helvetica, sans-serif;
+}
+
+.enterprise {
+    background-color: #f6f8f9;
+    width: 960px;
+    border-radius: 6px;
+    margin: 60px auto;
+    display: flex;
+}
+
+.info h2 {
+    font-weight: normal;
+}
+
+.info h1 {
+    font-weight: normal;
+}
+
