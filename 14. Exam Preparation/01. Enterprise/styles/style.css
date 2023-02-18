@@ -1,8 +1,8 @@
 /* COLORS:
 background - #f6f8f9
-headings - #49535e
-paragraph - #49535e
-primary button - #49535e
+headings - #293442
+paragraph - #828b93
+primary button - #796fff
 
 */
 
@@ -16,13 +16,48 @@ body {
     border-radius: 6px;
     margin: 60px auto;
     display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.info {
+    padding: 50px 48px;
+    width: 50%;
 }
 
 .info h2 {
-    font-weight: normal;
+    font-weight: bold;
+    font-size: 10px;
+    margin-bottom: 10px;
+    color: #293442;
 }
 
 .info h1 {
     font-weight: normal;
+    font-size: 28px;
+    margin-bottom: 24px;
+    color: #293442;
+}
+
+.info p {
+    margin-bottom: 30px;
+    color: #828b93;
+}
+
+button {
+    border: 1px solid black;
+    padding: 12px 30px;
+    border-radius: 4px;
+}
+
+.primary-btn {
+    margin-right: 15px;
+    background-color: #796fff;
+    border-color: #796fff;
+    color: #fff;
+}
+
+.img {
+    width: 30%;
 }
 
