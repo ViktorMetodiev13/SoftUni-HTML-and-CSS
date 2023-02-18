@@ -1,0 +1,87 @@
+/* General stuff */
+
+body {
+  background-color: rgb(238, 238, 238);
+  display: grid;
+  grid-template-areas:
+    "head head head"
+    "main main main"
+    "main main main";
+}
+
+a {
+  color: rgb(0, 102, 0);
+  text-decoration: none;
+}
+
+/* Header */
+
+header {
+  grid-area: head;
+  margin: 50px 90px;
+  border-bottom: 2px solid black;
+  display: grid;
+  grid-template-areas: "heading heading nav-bar";
+}
+
+h1 {
+  grid-area: heading;
+  display: inline-block;
+  font-family: Georgia, serif;
+  font-size: 1.6em;
+}
+
+/* Main */
+
+main {
+  grid-area: main;
+  margin: 50px 90px;
+}
+
+article {
+  margin-top: -80px;
+}
+
+h2 {
+  font-family: Georgia, serif;
+  font-size: 1.2em;
+}
+
+.firstImage {
+    float: right;
+    border: 2px solid black;
+    padding: 3px;
+    margin-left: 15px;
+    margin-bottom: 10px;
+}
+
+.secondImage {
+    float: left;
+    border: 2px solid black;
+    padding: 3px;
+    margin-right: 15px;
+    margin-bottom: 10px;
+    box-shadow: rgba(0, 0, 0, 0.25);
+}
+
+.beforeQuote {
+    display: inline-block;
+    width: 40%;
+}
+
+blockquote {
+    font-family: Georgia, serif;
+    width: 40%;
+    display: inline-block;
+    border-left: double gray;
+    padding: 30px;
+    color: gray;
+}
+
+blockquote p {
+    padding-top: -50px;
+}
+
+.author {
+    text-align: right;
+}
