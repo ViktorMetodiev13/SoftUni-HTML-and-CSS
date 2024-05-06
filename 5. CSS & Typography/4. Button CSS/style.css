@@ -1,0 +1,25 @@
+body {
+    background-color: gray(rgb(51, 51, 51));
+}
+
+a, button {
+    border-radius: 120px;
+    padding: 10px 15px;
+    text-decoration: none;
+    cursor: pointer;
+    margin: 10px;
+}
+
+.fill {
+    background-color: grey;
+    color: white;
+}
+
+.hover.fill:hover {
+    background-color: green(rgb(0, 102, 0));
+}
+
+.hover.first:hover {
+    background-color: white;
+    border: green;
+}
