@@ -1,0 +1,86 @@
+body {
+    margin: 70px 90px;
+    font-family: Georgia, serif;
+    background-color: lightgray;
+}
+
+/* HEADER */
+
+.navigation {
+    border-bottom: 1px solid black;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+header p {
+    font-size: 1.2em;
+    font-weight: 600;
+    display: inline-block;
+    margin-bottom: 5px;
+}
+
+nav {
+    display: inline-block;
+    position: absolute;
+    right: 10px;
+    bottom: 0px;
+}
+
+li {
+    list-style-type: none;
+    display: inline-block;
+    color: green;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+/* CONTENT */
+div {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr) 1fr;
+    grid-template-areas: 
+    "main main aside";
+}
+
+/* MAIN */
+
+main {
+    grid-area: main;
+}
+
+header h1 {
+    font-weight: 500;
+}
+
+.first.image {
+    float: right;
+}
+
+img {
+    background-color: rgb(255, 255, 255);
+    box-shadow: rgba(0, 0, 0, 0.5);
+    border: 1px solid black;
+    padding: 5px;
+}
+
+main p {
+    margin-bottom: 10px;
+}
+
+main h2 {
+    font-weight: 500;
+}
+
+.second.image {
+    float: left;
+    margin-right: 20px;
+}
+
+/* ASIDE */
+aside {
+    grid-area: aside;
+}
+
+h3 {
+    margin-left: 100px;
+}
