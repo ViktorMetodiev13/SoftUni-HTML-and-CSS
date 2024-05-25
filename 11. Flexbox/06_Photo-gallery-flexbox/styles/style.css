@@ -1,0 +1,29 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    background-color: rgb(238, 238, 238);
+    padding: 50px;
+}
+
+ul {
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+li {
+    display: flex;
+    border: 5px solid black;
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
+}
+
+img {
+    object-fit: scale-down;
+}
+

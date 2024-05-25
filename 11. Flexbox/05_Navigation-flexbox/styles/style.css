@@ -1,0 +1,39 @@
+body {
+    padding: 50px 70px;
+    font-family: Georgia, sans-serif;
+}
+
+/* HEADER */
+
+header {
+    border-bottom: 2px solid rgb(0, 0, 0);
+    display: flex;
+    align-items: center;
+    padding-bottom: 16px;
+    margin-bottom: 10px;
+}
+
+header h1 {
+    margin-right: auto;
+}
+
+.navigation {
+    display: flex;
+    gap: 10px;
+}
+
+.nav-item a {
+    text-decoration: none;
+    color: green;
+} 
+
+/* MAIN */
+
+h2 {
+    font-weight: 400;
+    margin-bottom: 8px;
+}
+
+p {
+    margin-bottom: 8px;
+}
