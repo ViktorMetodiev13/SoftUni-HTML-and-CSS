@@ -1,0 +1,26 @@
+body {
+    height: 100vh;
+    background-color: rgb(238, 238, 238);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    gap: 10px;
+}
+
+img {
+    border-radius: 10px;
+    width: 100px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.special {
+    width: 300px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: black;
+}
